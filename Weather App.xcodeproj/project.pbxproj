@@ -12,6 +12,8 @@
 		EC586AEB2B4F577000E6F406 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC586AEA2B4F577000E6F406 /* ViewController.swift */; };
 		EC586AF02B4F577200E6F406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC586AEF2B4F577200E6F406 /* Assets.xcassets */; };
 		EC586AF32B4F577200E6F406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC586AF12B4F577200E6F406 /* LaunchScreen.storyboard */; };
+		ECAD50FC2B86B07700955729 /* HourlyForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD50FB2B86B07700955729 /* HourlyForecastCollectionViewCell.swift */; };
+		ECAD50FE2B86B22300955729 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD50FD2B86B22300955729 /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EC586AEF2B4F577200E6F406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC586AF22B4F577200E6F406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC586AF42B4F577200E6F406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAD50FB2B86B07700955729 /* HourlyForecastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecastCollectionViewCell.swift; sourceTree = "<group>"; };
+		ECAD50FD2B86B22300955729 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				EC586AE62B4F577000E6F406 /* AppDelegate.swift */,
 				EC586AE82B4F577000E6F406 /* SceneDelegate.swift */,
 				EC586AEA2B4F577000E6F406 /* ViewController.swift */,
+				ECAD50FB2B86B07700955729 /* HourlyForecastCollectionViewCell.swift */,
+				ECAD50FD2B86B22300955729 /* Color+Extensions.swift */,
 				EC586AEF2B4F577200E6F406 /* Assets.xcassets */,
 				EC586AF12B4F577200E6F406 /* LaunchScreen.storyboard */,
 				EC586AF42B4F577200E6F406 /* Info.plist */,
@@ -134,8 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECAD50FE2B86B22300955729 /* Color+Extensions.swift in Sources */,
 				EC586AEB2B4F577000E6F406 /* ViewController.swift in Sources */,
 				EC586AE72B4F577000E6F406 /* AppDelegate.swift in Sources */,
+				ECAD50FC2B86B07700955729 /* HourlyForecastCollectionViewCell.swift in Sources */,
 				EC586AE92B4F577000E6F406 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
