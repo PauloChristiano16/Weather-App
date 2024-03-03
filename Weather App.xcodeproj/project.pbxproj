@@ -10,7 +10,6 @@
 		EC586AE72B4F577000E6F406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC586AE62B4F577000E6F406 /* AppDelegate.swift */; };
 		EC586AE92B4F577000E6F406 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC586AE82B4F577000E6F406 /* SceneDelegate.swift */; };
 		EC586AEB2B4F577000E6F406 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC586AEA2B4F577000E6F406 /* ViewController.swift */; };
-		EC586AF02B4F577200E6F406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC586AEF2B4F577200E6F406 /* Assets.xcassets */; };
 		EC586AF32B4F577200E6F406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC586AF12B4F577200E6F406 /* LaunchScreen.storyboard */; };
 		ECAD50FC2B86B07700955729 /* HourlyForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD50FB2B86B07700955729 /* HourlyForecastCollectionViewCell.swift */; };
 		ECAD50FE2B86B22300955729 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD50FD2B86B22300955729 /* Color+Extensions.swift */; };
@@ -18,6 +17,7 @@
 		ECAD51082B89AC8100955729 /* Core+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD51072B89AC8100955729 /* Core+Extensions.swift */; };
 		ECAD510A2B89ADC000955729 /* DailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD51092B89ADC000955729 /* DailyForecastTableViewCell.swift */; };
 		ECAD510C2B89AE0600955729 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD510B2B89AE0600955729 /* UIView+Extensions.swift */; };
+		ECAD512E2B89B9C500955729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAD512D2B89B9C500955729 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,6 @@
 		EC586AE62B4F577000E6F406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC586AE82B4F577000E6F406 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EC586AEA2B4F577000E6F406 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC586AEF2B4F577200E6F406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC586AF22B4F577200E6F406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC586AF42B4F577200E6F406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECAD50FB2B86B07700955729 /* HourlyForecastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecastCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -34,6 +33,7 @@
 		ECAD51072B89AC8100955729 /* Core+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core+Extensions.swift"; sourceTree = "<group>"; };
 		ECAD51092B89ADC000955729 /* DailyForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastTableViewCell.swift; sourceTree = "<group>"; };
 		ECAD510B2B89AE0600955729 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		ECAD512D2B89B9C500955729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/weather-forecast-app-main/Weather App/Weather App/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +75,8 @@
 				ECAD51092B89ADC000955729 /* DailyForecastTableViewCell.swift */,
 				ECAD50FB2B86B07700955729 /* HourlyForecastCollectionViewCell.swift */,
 				ECAD510B2B89AE0600955729 /* UIView+Extensions.swift */,
-				EC586AEF2B4F577200E6F406 /* Assets.xcassets */,
 				EC586AF12B4F577200E6F406 /* LaunchScreen.storyboard */,
+				ECAD512D2B89B9C500955729 /* Assets.xcassets */,
 				EC586AF42B4F577200E6F406 /* Info.plist */,
 			);
 			path = "Weather App";
@@ -140,8 +140,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECAD512E2B89B9C500955729 /* Assets.xcassets in Resources */,
 				EC586AF32B4F577200E6F406 /* LaunchScreen.storyboard in Resources */,
-				EC586AF02B4F577200E6F406 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
